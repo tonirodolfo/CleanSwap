@@ -22,6 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 3000);
   
   document.getElementById("swap-button").addEventListener("click", function() {
-    alert("Swap confirmé !");
+    alert("Swap confired !");
   });
 });
