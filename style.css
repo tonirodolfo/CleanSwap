@@ -38,3 +38,7 @@ nav ul {
   padding: 20px;
   text-align: center;
 }
+#crypto-list div {
+  margin: 10px 0;
+}
+
