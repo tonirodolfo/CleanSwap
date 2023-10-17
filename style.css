@@ -19,3 +19,22 @@
   border-radius: 25px;
   text-decoration: none;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3498db;
+  padding: 15px;
+  color: white;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+#wallet-scan {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
