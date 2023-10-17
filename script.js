@@ -20,42 +20,36 @@ document.addEventListener("DOMContentLoaded", function() {
     
     document.getElementById("swap-button").style.display = "block";
   }, 3000);
-  
+
   document.getElementById("swap-button").addEventListener("click", function() {
-    alert("Swap confired !");
- 
-document.getElementById("swap-button").addEventListener("click", function() {
-  // Afficher l'écran de chargement
-  document.getElementById("loading-screen").style.display = "block";
-  
-  // Simuler le calcul de la route
-  setTimeout(() => {
-    document.getElementById("loading-screen").style.display = "none";
+    // Afficher l'écran de chargement
+    document.getElementById("loading-screen").style.display = "block";
     
-    // Afficher la confirmation
-    document.getElementById("confirmation-modal").style.display = "block";
-  }, 2000);
-});
+    // Simuler le calcul de la route
+    setTimeout(() => {
+      document.getElementById("loading-screen").style.display = "none";
+      
+      // Afficher la confirmation
+      document.getElementById("confirmation-modal").style.display = "block";
+    }, 2000);
+  });
 
-document.getElementById("confirm-button").addEventListener("click", function() {
-  // Cacher la confirmation
-  document.getElementById("confirmation-modal").style.display = "none";
-  
-  // Afficher l'écran de chargement
-  document.getElementById("loading-screen").style.display = "block";
-  
-  // Simuler la conversion
-  setTimeout(() => {
-    document.getElementById("loading-screen").style.display = "none";
-    alert("Conversion confirmed!");
-  }, 2000);
-});
+  document.getElementById("confirm-button").addEventListener("click", function() {
+    // Cacher la confirmation
+    document.getElementById("confirmation-modal").style.display = "none";
+    
+    // Afficher l'écran de chargement
+    document.getElementById("loading-screen").style.display = "block";
+    
+    // Simuler la conversion
+    setTimeout(() => {
+      document.getElementById("loading-screen").style.display = "none";
+      alert("Conversion confirmed!");
+    }, 2000);
+  });
 
-document.getElementById("cancel-button").addEventListener("click", function() {
-  document.getElementById("confirmation-modal").style.display = "none";
-  alert("Conversion cancelled.");
-});
-  
-  
+  document.getElementById("cancel-button").addEventListener("click", function() {
+    document.getElementById("confirmation-modal").style.display = "none";
+    alert("Conversion cancelled.");
   });
 });
