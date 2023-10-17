@@ -47,6 +47,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
+   margin-top: 20vh;
 }
 
 #crypto-list div {
