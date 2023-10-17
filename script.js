@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     cryptos.forEach(crypto => {
       const cryptoItem = document.createElement("div");
       cryptoItem.innerHTML = `<input type="checkbox" id="${crypto.name}" name="${crypto.name}">
-                              <label for="${crypto.name}">${crypto.name} pour $${crypto.value}</label>`;
+                              <label for="${crypto.name}">${crypto.name} for $${crypto.value}</label>`;
       cryptoList.appendChild(cryptoItem);
     });
     
